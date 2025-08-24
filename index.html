@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naman Parmar - Full Stack Engineer</title>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon.svg">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon.svg">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=VT323&family=Share+Tech+Mono&family=IBM+Plex+Mono&family=Orbitron:wght@400;500;600;700&family=Exo+2:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">NP</a>
+            </div>
+                            <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            <!-- Theme Toggle Button - Integrated in Navbar -->
+            <div class="theme-toggle-nav">
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark/light mode">
+                    <i class="fas fa-moon" id="theme-icon"></i>
+                </button>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-greeting">Hi, I'm</div>
+                <h1 class="hero-title">
+                    <span class="hero-name">Naman Parmar</span>
+                    <span class="hero-role">
+                        <span class="typed-text"></span>
+                        <span class="cursor">|</span>
+                    </span>
+                </h1>
+                <p class="hero-subtitle">
+                    Building scalable enterprise solutions that drive measurable business impact
+                </p>
+                <div class="hero-stats">
+                    <div class="stats-left">
+                        <div class="stat-item">
+                            <span class="stat-number">2+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">650+</span>
+                            <span class="stat-label">LeetCode Solved</span>
+                        </div>
+                    </div>
+                    <div class="social-bubbles">
+                        <div class="bubble-row">
+                            <a href="https://www.linkedin.com/in/namanparmar41/" target="_blank" rel="noopener" class="social-bubble linkedin" aria-label="LinkedIn Profile">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/NamanParmar1" target="_blank" rel="noopener" class="social-bubble github" aria-label="GitHub Profile">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://leetcode.com/Palindro_Me/" target="_blank" rel="noopener" class="social-bubble leetcode" aria-label="LeetCode Profile">
+                                <i class="fas fa-code"></i>
+                            </a>
+                        </div>
+                        <div class="bubble-row">
+                            <a href="https://codeforces.com/profile/palindro.me" target="_blank" rel="noopener" class="social-bubble codeforces" aria-label="CodeForces Profile">
+                                <i class="fas fa-trophy"></i>
+                            </a>
+                            <a href="mailto:namanparmar151@gmail.com" class="social-bubble email" aria-label="Email Contact">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                            <a href="https://learn.microsoft.com/api/credentials/share/en-us/NAMANPARMAR-9136/5B8E90F956A33319?sharingId=B1111312F89E308B" target="_blank" rel="noopener" class="social-bubble certificate" aria-label="Azure Certification">
+                                <i class="fas fa-certificate"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                                    <a href="assets/new/Naman_Parmar.pdf" download class="btn btn-secondary">
+                    <i class="fas fa-download"></i> Download Resume
+                </a>
+                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="tech-stack">
+                    <div class="tech-item">Java</div>
+                    <div class="tech-item">Spring Boot</div>
+                    <div class="tech-item">Spring Security</div>
+                    <div class="tech-item">Spring Cache</div>
+                    <div class="tech-item">Microservices</div>
+                    <div class="tech-item">ReactJS</div>
+                    <div class="tech-item">Redux</div>
+                    <div class="tech-item">PostgreSQL</div>
+                    <div class="tech-item">Redis</div>
+                    <div class="tech-item">Docker</div>
+                    <div class="tech-item">Jenkins</div>
+                    <div class="tech-item">JavaScript</div>
+                    <div class="tech-item">HTML5</div>
+                    <div class="tech-item">CSS3</div>
+                    <div class="tech-item">MySQL</div>
+                    <div class="tech-item">Git</div>
+                    <div class="tech-item">Maven</div>
+                    <div class="tech-item">WebRTC</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a passionate Full Stack Engineer with over 2 years of experience building enterprise applications 
+                        at Cognizant. I specialize in Java, Spring Boot, and ReactJS, with a proven track record of 
+                        delivering measurable improvements in performance, quality, and user experience.
+                    </p>
+                    <p>
+                        My approach combines technical expertise with business understanding, ensuring that every solution 
+                        not only works flawlessly but also drives real business value. I've led cross-functional teams, 
+                        implemented automation strategies, and delivered enterprise-grade applications that serve thousands of users.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-rocket"></i>
+                            <span>Performance Optimization</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Enterprise Security</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-users"></i>
+                            <span>Team Leadership</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="profile-card">
+                        <div class="profile-header">
+                            <h3>Naman Parmar</h3>
+                            <p>Full Stack Engineer</p>
+                        </div>
+                        <div class="profile-details">
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Kolkata, West Bengal, India</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>B.Tech IT - CGPA 9.25/10</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-certificate"></i>
+                                <a href="https://learn.microsoft.com/api/credentials/share/en-us/NAMANPARMAR-9136/5B8E90F956A33319?sharingId=B1111312F89E308B" target="_blank" rel="noopener" class="certification-link">Microsoft Azure Certified</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Skills & Expertise Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            
+
+
+            <!-- Technical Skills -->
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend Development</h3>
+                    <p class="skill-description">Creating responsive, user-friendly interfaces with modern ReactJS, Redux, and state management solutions.</p>
+                    <div class="skill-items">
+                        <span class="skill-item">ReactJS</span>
+                        <span class="skill-item">Redux</span>
+                        <span class="skill-item">Redux Toolkit</span>
+                        <span class="skill-item">JavaScript</span>
+                        <span class="skill-item">HTML5</span>
+                        <span class="skill-item">CSS3</span>
+                        <span class="skill-item">Tailwind CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend Development</h3>
+                    <p class="skill-description">Building robust, scalable backend systems with Java, Spring Boot, and Microservices architecture.</p>
+                    <div class="skill-items">
+                        <span class="skill-item">Java</span>
+                        <span class="skill-item">Spring Boot</span>
+                        <span class="skill-item">Spring Security</span>
+                        <span class="skill-item">Spring Cache</span>
+                        <span class="skill-item">JWT</span>
+                        <span class="skill-item">RESTful APIs</span>
+                        <span class="skill-item">WebSockets</span>
+                        <span class="skill-item">Spring Data JPA</span>
+                        <span class="skill-item">Kafka</span>
+                        <span class="skill-item">Microservices</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Database & Tools</h3>
+                    <p class="skill-description">Managing data persistence, caching strategies, and implementing efficient database solutions.</p>
+                    <div class="skill-items">
+                        <span class="skill-item">MySQL</span>
+                        <span class="skill-item">PostgreSQL</span>
+                        <span class="skill-item">Redis</span>
+                        <span class="skill-item">Git</span>
+                        <span class="skill-item">VS Code</span>
+                        <span class="skill-item">IntelliJ IDEA</span>
+                        <span class="skill-item">Eclipse</span>
+                        <span class="skill-item">Maven</span>
+                        <span class="skill-item">Swagger</span>
+                        <span class="skill-item">Jenkins</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>DevOps & Quality</h3>
+                    <p class="skill-description">Enhancing application performance through automation, testing, and efficient deployment pipelines.</p>
+                    <div class="skill-items">
+                        <span class="skill-item">Docker</span>
+                        <span class="skill-item">Cucumber (BDD)</span>
+                        <span class="skill-item">SonarQube</span>
+                        <span class="skill-item">Agile/Scrum</span>
+                        <span class="skill-item">CI/CD</span>
+                        <span class="skill-item">WebRTC</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Jr. Software Engineer</h3>
+                            <span class="company">Cognizant</span>
+                            <span class="duration">Sep 2023 - Present</span>
+                        </div>
+                        <p class="timeline-location">Kolkata, West Bengal, India</p>
+                        <ul class="timeline-achievements">
+                            <li>Full stack engineer for leading Pharmacy Benefit Management Client (Cigna), building and maintaining enterprise applications with ReactJS, Redux, Java, and Spring Boot.</li>
+                            <li>Enhanced backend quality by 40% through BDD automation with Cucumber, reducing production defects by 25% and maintaining code coverage above 85% with SonarQube.</li>
+                            <li>Led UI migration from generic components to LWC library, improving page load time by 30% and reducing bundle size by 20%.</li>
+                            <li>Collaborated with cross-functional teams of 15+ members, contributing to 5 successful quarterly releases with zero critical production issues.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Java Full Stack Engineer Intern</h3>
+                            <span class="company">Cognizant</span>
+                            <span class="duration">Mar 2023 - Aug 2023</span>
+                        </div>
+                        <p class="timeline-location">Kolkata, West Bengal, India</p>
+                        <ul class="timeline-achievements">
+                            <li>Received comprehensive training on Java, JavaScript along with Spring Boot and ReactJS.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Full-Stack E-Commerce</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/NamanParmar1/E-commerceApplication" target="_blank" rel="noopener">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        A comprehensive e-commerce platform with role-based access control, supporting 1000+ products with real-time inventory management.
+                    </p>
+                    <div class="project-tech">
+                        <span>Spring Boot</span>
+                        <span>ReactJS</span>
+                        <span>Redux</span>
+                        <span>PostgreSQL</span>
+                        <span>Redis</span>
+                        <span>Stripe</span>
+                        <span>JWT</span>
+                    </div>
+                    <ul class="project-features">
+                        <li>Secure payment processing with Stripe API and JWT-based authentication</li>
+                        <li>Redis caching for products and carts, reducing database load</li>
+                        <li>Admin dashboard with analytics and order management</li>
+                        <li>30+ RESTful APIs with Swagger documentation</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>ShareIt - P2P File Sharing</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/NamanParmar1/ShareIt-p2p" target="_blank" rel="noopener">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://shareit-frontend.onrender.com" target="_blank" rel="noopener">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Production-ready P2P file sharing app with WebRTC transfers and server fallback, supporting 5GB files with password protection and AES-256 encryption.
+                    </p>
+                    <div class="project-tech">
+                        <span>Java</span>
+                        <span>Spring Boot</span>
+                        <span>React</span>
+                        <span>WebRTC</span>
+                        <span>WebSockets</span>
+                        <span>Docker</span>
+                    </div>
+                    <ul class="project-features">
+                        <li>Pause/resume transfers with smart connection retry and real-time progress</li>
+                        <li>Enterprise backend with Spring Boot 3.2, monitoring, and rate limiting</li>
+                        <li>React frontend with drag-and-drop interface and QR code sharing</li>
+                        <li>Security features with file validation and automatic cleanup</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Lyriks -Music Player</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/NamanParmar1/Lyriks-MusicPlayer" target="_blank" rel="noopener">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://lyriks-gaana.netlify.app/" target="_blank" rel="noopener">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        A fully functional Music Player with playback, song details, artist info, related songs, and filtering by genre or country.
+                    </p>
+                    <div class="project-tech">
+                        <span>JavaScript</span>
+                        <span>ReactJS</span>
+                        <span>Redux</span>
+                        <span>Tailwind CSS</span>
+                        <span>Shazam API</span>
+                    </div>
+                    <ul class="project-features">
+                        <li>Feature-rich music player with 50,000+ songs and real-time playback</li>
+                        <li>Optimized state management with Redux for seamless user experience</li>
+                        <li>Responsive design with Tailwind CSS</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>LeaveTracker</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/NamanParmar1/Leave-Management" target="_blank" rel="noopener">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        A comprehensive web application for managing employee leaves, holidays, and organizational events with real-time data synchronization.
+                    </p>
+                    <div class="project-tech">
+                        <span>React 18</span>
+                        <span>Firebase</span>
+                        <span>Okta SSO</span>
+                        <span>Vite</span>
+                        <span>Context API</span>
+                        <span>React Router</span>
+                    </div>
+                    <ul class="project-features">
+                        <li>Role-based access control with admin and employee permissions</li>
+                        <li>Interactive calendars for leave schedules, holidays, and birthdays</li>
+                        <li>Real-time updates using Firebase with secure authentication</li>
+                        <li>Responsive design with modern UI components and toast notifications</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Library Management System</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/NamanParmar1/LibraryManagementSystem" target="_blank" rel="noopener">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        A software system to find, manage, and track borrowed books, fines, and bills in one place.
+                    </p>
+                    <div class="project-tech">
+                        <span>Java</span>
+                        <span>Spring Boot</span>
+                        <span>JavaScript</span>
+                        <span>ReactJS</span>
+                        <span>MySQL</span>
+                    </div>
+                    <ul class="project-features">
+                        <li>Complete library management solution with book tracking</li>
+                        <li>ReactJS frontend with Spring Boot backend</li>
+                        <li>MySQL database for data persistence</li>
+                    </ul>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>I'm always interested in new opportunities and exciting projects. Let's discuss how we can work together!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:namanparmar151@gmail.com">namanparmar151@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+917050119207">+91 7050119207</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Kolkata, West Bengal, India</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-social">
+                    <h3>Connect With Me</h3>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/namanparmar41/" target="_blank" rel="noopener" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/NamanParmar1" target="_blank" rel="noopener" class="social-link">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://leetcode.com/Palindro_Me/" target="_blank" rel="noopener" class="social-link">
+                            <i class="fas fa-code"></i>
+                            <span>LeetCode</span>
+                        </a>
+                        <a href="https://codeforces.com/profile/palindro.me" target="_blank" rel="noopener" class="social-link">
+                            <i class="fas fa-trophy"></i>
+                            <span>CodeForces</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Naman Parmar. All rights reserved.</p>
+                <p>Built with ❤️ and modern web technologies</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
