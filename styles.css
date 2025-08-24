@@ -282,8 +282,8 @@ p {
 }
 
 .theme-toggle-btn:hover {
-    background-color: var(--primary-color);
-    color: var(--text-light);
+    background-color: black;
+    color: white;
     transform: scale(1.05);
     box-shadow: var(--shadow-medium);
 }
@@ -300,8 +300,31 @@ p {
 }
 
 [data-theme="dark"] .theme-toggle-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Theme toggle button icon colors */
+.theme-toggle-btn i {
+    color: var(--text-primary);
+    transition: color var(--theme-transition);
+}
+
+.theme-toggle-btn:hover i {
+    color: white;
+}
+
+/* Dark theme specific icon colors */
+[data-theme="dark"] .theme-toggle-btn i {
+    color: #ffd700; /* Yellow sun */
+}
+
+[data-theme="dark"] .theme-toggle-btn:hover {
     background-color: var(--primary-color);
-    color: var(--text-light);
+}
+
+[data-theme="dark"] .theme-toggle-btn:hover i {
+    color: #ffd700; /* Keep sun yellow on hover */
 }
 
 /* Dark theme specific adjustments */
