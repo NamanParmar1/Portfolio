@@ -436,10 +436,8 @@ document.addEventListener('DOMContentLoaded', function() {
     function updateThemeIcon(theme) {
         if (theme === 'dark') {
             themeIcon.className = 'fas fa-sun';
-            themeIcon.style.color = '#ffd700'; // Gold color for sun
         } else {
             themeIcon.className = 'fas fa-moon';
-            themeIcon.style.color = '#007acc'; // Blue color for moon
         }
     }
     
